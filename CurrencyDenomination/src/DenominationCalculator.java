@@ -22,7 +22,7 @@ public class DenominationCalculator
 	static void DenominationsCalculator ( int Denominations[], int PayableAmount)
 	{
 		SortDenominationArray(Denominations); //Sorting the Array in decreasing order first
-		//initialise the array to store the numbe of notes required per Denomination
+		//Initialize the array to store the number of notes required per Denomination
 		int NumberofNotesCounter[] = new int[Denominations.length];
 		//Assigning the payable amount to a local variable for calculating the remaining amount
 		int RemainingAmount = PayableAmount;
